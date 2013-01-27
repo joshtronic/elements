@@ -1,5 +1,5 @@
 /*---------------------------------------------------
-    LESS Elements 0.9
+    LESS Elements 0.9 + My Hax0rin’
   ---------------------------------------------------
     A set of useful LESS mixins
     More info at: http://lesselements.com
@@ -153,4 +153,7 @@
   -moz-background-clip: @argument;
   -webkit-background-clip: @argument;
   background-clip: @argument;
+}
+.debug(@color: red, @sizeStyle: 1px solid) {
+  border: @sizeStyle @color;
 }
