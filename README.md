@@ -19,6 +19,12 @@ License: This work is dedicated to the public domain and is free for all uses, c
 Mixins
 ------
 
+### Animations
+
+	.animation-delay(duration)
+
+Sets the delay / duration of the animation
+
 ### Backgrounds
 
     .background-clip(padding-box)
