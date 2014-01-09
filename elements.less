@@ -55,6 +55,18 @@
   -moz-border-radius: @radius;
   border-radius: @radius;
 }
+.rounded-bottom(@radius: 2px) {
+  .border-radius(0, @radius, @radius, 0);
+}
+.rounded-left(@radius: 2px) {
+  .border-radius(0, 0, @radius, @radius);
+}
+.rounded-right(@radius: 2px) {
+  .border-radius(@radius, @radius, 0, 0);
+}
+.rounded-top(@radius: 2px) {
+  .border-radius(@radius, 0, 0, @radius);
+}
 .border-radius(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
   -webkit-border-top-right-radius: @topright;
   -webkit-border-bottom-right-radius: @bottomright;
